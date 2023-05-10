@@ -1,0 +1,10 @@
+<h1>
+  <input id="nuovo" (keyup.enter)="newCity()" />
+</h1>
+<p *ngIf="newCity == undefined">
+  <p>{{errore}}
+    <button (click)="clean()">Capito</button>
+  </p>
+
+
+
